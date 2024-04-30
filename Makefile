@@ -9,7 +9,7 @@ CFLAGS = -DUSE_MMAP -DHOST -DANDROID
 LD = $(PREFIX)gcc
 LDFLAGS =
 LIBS =
-AR = $(PREFIX)ar
+AR = ar
 ARFLAGS = rcs
 
 ifeq ($(ARCH),)
